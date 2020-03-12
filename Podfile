@@ -7,6 +7,9 @@ target 'TekoStudy' do
 
   # Pods for TekoStudy
     pod 'Moya'
+    pod 'FSPagerView'
+    pod 'IQKeyboardManager'
+    pod 'NVActivityIndicatorView'
   target 'TekoStudyTests' do
     inherit! :search_paths
     # Pods for testing

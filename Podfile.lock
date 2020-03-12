@@ -1,22 +1,36 @@
 PODS:
   - Alamofire (5.0.2)
+  - FSPagerView (0.8.3)
+  - IQKeyboardManager (6.5.5)
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
 
 DEPENDENCIES:
+  - FSPagerView
+  - IQKeyboardManager
   - Moya
+  - NVActivityIndicatorView
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FSPagerView
+    - IQKeyboardManager
     - Moya
+    - NVActivityIndicatorView
 
 SPEC CHECKSUMS:
   Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
 
-PODFILE CHECKSUM: 36d1457278ae094674702c9b44c392f5d35e900b
+PODFILE CHECKSUM: efb745f435ef515552f726e994b26d7fa3cfa42a
 
 COCOAPODS: 1.9.1
