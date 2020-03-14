@@ -10,6 +10,7 @@ target 'TekoStudy' do
     pod 'FSPagerView'
     pod 'IQKeyboardManager'
     pod 'NVActivityIndicatorView'
+    pod 'PagingKit'
   target 'TekoStudyTests' do
     inherit! :search_paths
     # Pods for testing

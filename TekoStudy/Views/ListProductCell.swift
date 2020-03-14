@@ -26,9 +26,9 @@ class ListProductCell: UITableViewCell {
     
     func configureCell(product: Product){
         nameProductLabel.text = product.name
-        if let sellPrice = product.price.sellPrice {
-            sellPriceView.configCurrency(sellerPrice: sellPrice)
-        }
+        //if let sellPrice = product.price.sellPrice {
+        sellPriceView.text = product.price.sellPrice?.formatNumber(separator: ".")
+        //}
         if let supplierSalePrice = product.price.supplierSalePrice, let sellPrice = product.price.sellPrice {
             let attributedString = NSMutableAttributedString(string: supplierSalePrice.formatNumber(separator: "."))
         attributedString.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 2, range: NSMakeRange(0, attributedString.length))

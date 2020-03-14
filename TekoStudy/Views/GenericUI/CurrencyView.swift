@@ -9,11 +9,11 @@
 import UIKit
 
 @IBDesignable
-class CurrencyView: UIView {
+class CurrencyView: UILabel {
 
     final var view: UIView!
     @IBOutlet weak var currencyLabel: UILabel!
-    
+    @IBOutlet weak var currencyUnitLabel: UILabel!
     override init(frame: CGRect) {
         super.init(frame: frame)
         xibSetup()
@@ -37,9 +37,11 @@ class CurrencyView: UIView {
         let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
         return view
     }
-    
-    func configCurrency(sellerPrice: Int) {
-        currencyLabel.text = sellerPrice.formatNumber(separator: ".")
+        
+    override var text: String? {
+        didSet {
+            currencyLabel.text = text
+            currencyUnitLabel.isHidden = text == nil
+        }
     }
-
 }

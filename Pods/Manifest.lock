@@ -9,12 +9,14 @@ PODS:
   - NVActivityIndicatorView (4.8.0):
     - NVActivityIndicatorView/Presenter (= 4.8.0)
   - NVActivityIndicatorView/Presenter (4.8.0)
+  - PagingKit (1.12.0)
 
 DEPENDENCIES:
   - FSPagerView
   - IQKeyboardManager
   - Moya
   - NVActivityIndicatorView
+  - PagingKit
 
 SPEC REPOS:
   trunk:
@@ -23,6 +25,7 @@ SPEC REPOS:
     - IQKeyboardManager
     - Moya
     - NVActivityIndicatorView
+    - PagingKit
 
 SPEC CHECKSUMS:
   Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
@@ -30,7 +33,8 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  PagingKit: 3aa34f2547edad4809da888d5fa1b930456753f0
 
-PODFILE CHECKSUM: efb745f435ef515552f726e994b26d7fa3cfa42a
+PODFILE CHECKSUM: 3f1b764f407234cefce7782b776f41bda8eb2f77
 
 COCOAPODS: 1.9.1

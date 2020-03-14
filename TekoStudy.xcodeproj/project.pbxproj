@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F28C7D1EA987BF7A66851DD /* Pods_TekoStudyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C37FBC0B8914E49575689C /* Pods_TekoStudyTests.framework */; };
 		94D7F5470BC8A065EC4560E4 /* Pods_TekoStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2196545A2A43ABCF95A253D8 /* Pods_TekoStudy.framework */; };
+		C0467655241A981400D309C2 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0467654241A981400D309C2 /* ProductDetailViewController.swift */; };
+		C0478225241C8FEE002C6955 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0478224241C8FEE002C6955 /* PaddingLabel.swift */; };
 		C048BDA824191DAB00195656 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048BDA724191DAB00195656 /* Product.swift */; };
 		C048BDAA2419295400195656 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048BDA92419295400195656 /* NibLoadableView.swift */; };
 		C048BDAC2419298E00195656 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048BDAB2419298D00195656 /* ReusableView.swift */; };
@@ -16,6 +18,18 @@
 		C0492F03241A29700066DAB3 /* ListProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0492F01241A29700066DAB3 /* ListProductCell.xib */; };
 		C0492F06241A39820066DAB3 /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0492F05241A39820066DAB3 /* CurrencyView.swift */; };
 		C0492F08241A39900066DAB3 /* CurrencyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0492F07241A39900066DAB3 /* CurrencyView.xib */; };
+		C0494EFC241CCCDE006381C5 /* DetailProductTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0494EFB241CCCDE006381C5 /* DetailProductTitleView.swift */; };
+		C0494EFE241CCCF3006381C5 /* DetailProductTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0494EFD241CCCF3006381C5 /* DetailProductTitleView.xib */; };
+		C0494F00241CE12E006381C5 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0494EFF241CE12E006381C5 /* CartButton.swift */; };
+		C0494F02241CE15A006381C5 /* CartButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0494F01241CE15A006381C5 /* CartButton.xib */; };
+		C04C7778241BE1E3002B5704 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C7777241BE1E3002B5704 /* MenuCell.swift */; };
+		C04C777C241BE228002B5704 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04C777B241BE228002B5704 /* MenuCell.xib */; };
+		C04C777F241BEA9D002B5704 /* InfoProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C777D241BEA9D002B5704 /* InfoProductViewCell.swift */; };
+		C04C7780241BEA9D002B5704 /* InfoProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04C777E241BEA9D002B5704 /* InfoProductViewCell.xib */; };
+		C04C7782241BECDC002B5704 /* UICollectionView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C7781241BECDC002B5704 /* UICollectionView+Register.swift */; };
+		C04C7785241BED07002B5704 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C7783241BED07002B5704 /* ProductCollectionViewCell.swift */; };
+		C04C7786241BED07002B5704 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04C7784241BED07002B5704 /* ProductCollectionViewCell.xib */; };
+		C0790DCD241B2C1F0010B3AF /* StoryBoardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0790DCC241B2C1F0010B3AF /* StoryBoardHelper.swift */; };
 		C090ABC724187BBE00DE6F09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C090ABC624187BBE00DE6F09 /* AppDelegate.swift */; };
 		C090ABCE24187BBE00DE6F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C090ABCC24187BBE00DE6F09 /* Main.storyboard */; };
 		C090ABD024187BBF00DE6F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C090ABCF24187BBF00DE6F09 /* Assets.xcassets */; };
@@ -67,6 +81,8 @@
 		456A9D582F3A23378483A5D4 /* Pods-TekoStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TekoStudy.debug.xcconfig"; path = "Target Support Files/Pods-TekoStudy/Pods-TekoStudy.debug.xcconfig"; sourceTree = "<group>"; };
 		73C37FBC0B8914E49575689C /* Pods_TekoStudyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TekoStudyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE6D71C4C6872E3876C2E9B /* Pods-TekoStudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TekoStudyTests.release.xcconfig"; path = "Target Support Files/Pods-TekoStudyTests/Pods-TekoStudyTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0467654241A981400D309C2 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		C0478224241C8FEE002C6955 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
 		C048BDA724191DAB00195656 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		C048BDA92419295400195656 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		C048BDAB2419298D00195656 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
@@ -74,6 +90,18 @@
 		C0492F01241A29700066DAB3 /* ListProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListProductCell.xib; sourceTree = "<group>"; };
 		C0492F05241A39820066DAB3 /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 		C0492F07241A39900066DAB3 /* CurrencyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyView.xib; sourceTree = "<group>"; };
+		C0494EFB241CCCDE006381C5 /* DetailProductTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProductTitleView.swift; sourceTree = "<group>"; };
+		C0494EFD241CCCF3006381C5 /* DetailProductTitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailProductTitleView.xib; sourceTree = "<group>"; };
+		C0494EFF241CE12E006381C5 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		C0494F01241CE15A006381C5 /* CartButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartButton.xib; sourceTree = "<group>"; };
+		C04C7777241BE1E3002B5704 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		C04C777B241BE228002B5704 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		C04C777D241BEA9D002B5704 /* InfoProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoProductViewCell.swift; sourceTree = "<group>"; };
+		C04C777E241BEA9D002B5704 /* InfoProductViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoProductViewCell.xib; sourceTree = "<group>"; };
+		C04C7781241BECDC002B5704 /* UICollectionView+Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Register.swift"; sourceTree = "<group>"; };
+		C04C7783241BED07002B5704 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		C04C7784241BED07002B5704 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		C0790DCC241B2C1F0010B3AF /* StoryBoardHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoardHelper.swift; sourceTree = "<group>"; };
 		C090ABC324187BBE00DE6F09 /* TekoStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TekoStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C090ABC624187BBE00DE6F09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C090ABCD24187BBE00DE6F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -151,6 +179,11 @@
 			children = (
 				C0492F05241A39820066DAB3 /* CurrencyView.swift */,
 				C0492F07241A39900066DAB3 /* CurrencyView.xib */,
+				C0478224241C8FEE002C6955 /* PaddingLabel.swift */,
+				C0494EFB241CCCDE006381C5 /* DetailProductTitleView.swift */,
+				C0494EFD241CCCF3006381C5 /* DetailProductTitleView.xib */,
+				C0494EFF241CE12E006381C5 /* CartButton.swift */,
+				C0494F01241CE15A006381C5 /* CartButton.xib */,
 			);
 			path = GenericUI;
 			sourceTree = "<group>";
@@ -206,6 +239,7 @@
 		C090ABEA24188ADE00DE6F09 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C0790DCC241B2C1F0010B3AF /* StoryBoardHelper.swift */,
 				C048BDAB2419298D00195656 /* ReusableView.swift */,
 				C048BDA92419295400195656 /* NibLoadableView.swift */,
 				C090ABEB24188ADE00DE6F09 /* Constants.swift */,
@@ -240,6 +274,7 @@
 			children = (
 				C090AC0624188ADF00DE6F09 /* CALayer+Shadow.swift */,
 				C090AC0724188ADF00DE6F09 /* UITableView+ScrollToTop.swift */,
+				C04C7781241BECDC002B5704 /* UICollectionView+Register.swift */,
 				C090AC0824188ADF00DE6F09 /* Int+Formatter.swift */,
 				C090AC0A24188ADF00DE6F09 /* UITabBar+Ext.swift */,
 				C090AC0C24188ADF00DE6F09 /* UIView+Designable.swift */,
@@ -267,6 +302,12 @@
 				C0492F04241A39510066DAB3 /* GenericUI */,
 				C0492F00241A29700066DAB3 /* ListProductCell.swift */,
 				C0492F01241A29700066DAB3 /* ListProductCell.xib */,
+				C04C7777241BE1E3002B5704 /* MenuCell.swift */,
+				C04C777B241BE228002B5704 /* MenuCell.xib */,
+				C04C777D241BEA9D002B5704 /* InfoProductViewCell.swift */,
+				C04C777E241BEA9D002B5704 /* InfoProductViewCell.xib */,
+				C04C7783241BED07002B5704 /* ProductCollectionViewCell.swift */,
+				C04C7784241BED07002B5704 /* ProductCollectionViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				C090AC2624188ADF00DE6F09 /* ListProductViewController.swift */,
+				C0467654241A981400D309C2 /* ProductDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -380,10 +422,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04C777C241BE228002B5704 /* MenuCell.xib in Resources */,
+				C04C7780241BEA9D002B5704 /* InfoProductViewCell.xib in Resources */,
+				C0494EFE241CCCF3006381C5 /* DetailProductTitleView.xib in Resources */,
 				C090ABD324187BBF00DE6F09 /* LaunchScreen.storyboard in Resources */,
 				C0492F03241A29700066DAB3 /* ListProductCell.xib in Resources */,
+				C0494F02241CE15A006381C5 /* CartButton.xib in Resources */,
 				C090ABD024187BBF00DE6F09 /* Assets.xcassets in Resources */,
 				C090ABCE24187BBE00DE6F09 /* Main.storyboard in Resources */,
+				C04C7786241BED07002B5704 /* ProductCollectionViewCell.xib in Resources */,
 				C0492F08241A39900066DAB3 /* CurrencyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,9 +515,15 @@
 			files = (
 				C090AC5B24188ADF00DE6F09 /* ListProductViewController.swift in Sources */,
 				C090ABC724187BBE00DE6F09 /* AppDelegate.swift in Sources */,
+				C0494F00241CE12E006381C5 /* CartButton.swift in Sources */,
+				C0494EFC241CCCDE006381C5 /* DetailProductTitleView.swift in Sources */,
+				C04C7785241BED07002B5704 /* ProductCollectionViewCell.swift in Sources */,
+				C04C7782241BECDC002B5704 /* UICollectionView+Register.swift in Sources */,
+				C0467655241A981400D309C2 /* ProductDetailViewController.swift in Sources */,
 				C090AC4524188ADF00DE6F09 /* UIView+Designable.swift in Sources */,
 				C0492F06241A39820066DAB3 /* CurrencyView.swift in Sources */,
 				C090AC4F24188ADF00DE6F09 /* UIImage+Color.swift in Sources */,
+				C0790DCD241B2C1F0010B3AF /* StoryBoardHelper.swift in Sources */,
 				C090AC5924188ADF00DE6F09 /* UINavigationController+StatusBar.swift in Sources */,
 				C090AC2924188ADF00DE6F09 /* Delay.swift in Sources */,
 				C090AC5F2418924C00DE6F09 /* TekoService.swift in Sources */,
@@ -478,17 +531,20 @@
 				C090AC632418932300DE6F09 /* ProductDetailService.swift in Sources */,
 				C090AC4024188ADF00DE6F09 /* UITableView+ScrollToTop.swift in Sources */,
 				C090AC2724188ADF00DE6F09 /* Constants.swift in Sources */,
+				C04C777F241BEA9D002B5704 /* InfoProductViewCell.swift in Sources */,
 				C0492F02241A29700066DAB3 /* ListProductCell.swift in Sources */,
 				C090AC61241892FF00DE6F09 /* ProductListService.swift in Sources */,
 				C090AC4624188ADF00DE6F09 /* UIWindow+Visible.swift in Sources */,
 				C090AC4124188ADF00DE6F09 /* Int+Formatter.swift in Sources */,
 				C048BDA824191DAB00195656 /* Product.swift in Sources */,
+				C04C7778241BE1E3002B5704 /* MenuCell.swift in Sources */,
 				C048BDAC2419298E00195656 /* ReusableView.swift in Sources */,
 				C090AC4924188ADF00DE6F09 /* UIViewController+Swizzling.m in Sources */,
 				C090AC3324188ADF00DE6F09 /* TekoError.swift in Sources */,
 				C090AC4324188ADF00DE6F09 /* UITabBar+Ext.swift in Sources */,
 				C090AC2824188ADF00DE6F09 /* KeyboardManager.swift in Sources */,
 				C090AC4824188ADF00DE6F09 /* Bundle+BuildVersion.swift in Sources */,
+				C0478225241C8FEE002C6955 /* PaddingLabel.swift in Sources */,
 				C090AC5624188ADF00DE6F09 /* UIViewController+Loading.swift in Sources */,
 				C090AC3F24188ADF00DE6F09 /* CALayer+Shadow.swift in Sources */,
 				C090AC5024188ADF00DE6F09 /* Data+HexString.swift in Sources */,
